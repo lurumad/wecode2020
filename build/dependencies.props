@@ -1,28 +1,30 @@
 <Project>
   <PropertyGroup Label="SDK Versions">
     <NetStandardTargetVersion21>netstandard2.1</NetStandardTargetVersion21>
-    <NetCoreTargetVersion>netcoreapp3.0</NetCoreTargetVersion>
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
     <MicrosoftNETTestSdk>16.4.0</MicrosoftNETTestSdk>
   </PropertyGroup>
 
   <PropertyGroup Label="Package Dependencies">
+    <FluentValidationAspNetCore>8.6.1</FluentValidationAspNetCore>
+    <HellangMiddlewareProblemDetails>3.1.0</HellangMiddlewareProblemDetails>
     <SwashbuckleAspNetCore>5.0.0-rc4</SwashbuckleAspNetCore>
-    <MicrosoftEntityFrameworkCore>3.0.1</MicrosoftEntityFrameworkCore>
-    <MicrosoftEntityFrameworkCoreDesign>3.0.1</MicrosoftEntityFrameworkCoreDesign>
-    <MicrosoftEntityFrameworkCoreRelational>3.0.1</MicrosoftEntityFrameworkCoreRelational>
-    <MicrosoftEntityFrameworkCoreSqlServer>3.0.1</MicrosoftEntityFrameworkCoreSqlServer>
-    <MicrosoftAspNetCoreJsonPatch>3.0.0</MicrosoftAspNetCoreJsonPatch>
-    <MicrosoftAspNetCoreMvcVersioningApiExplorer>4.0.0</MicrosoftAspNetCoreMvcVersioningApiExplorer>
-    <MicrosoftAspNetCoreMvcNewtonsoftJson>3.0.0</MicrosoftAspNetCoreMvcNewtonsoftJson>
+    <MicrosoftEntityFrameworkCore>3.1.0</MicrosoftEntityFrameworkCore>
+    <MicrosoftEntityFrameworkCoreDesign>3.1.0</MicrosoftEntityFrameworkCoreDesign>
+    <MicrosoftEntityFrameworkCoreRelational>3.1.0</MicrosoftEntityFrameworkCoreRelational>
+    <MicrosoftEntityFrameworkCoreSqlServer>3.1.0</MicrosoftEntityFrameworkCoreSqlServer>
+    <MicrosoftAspNetCoreJsonPatch>3.1.0</MicrosoftAspNetCoreJsonPatch>
+    <MicrosoftAspNetCoreMvcVersioningApiExplorer>4.1.1</MicrosoftAspNetCoreMvcVersioningApiExplorer>
+    <MicrosoftAspNetCoreMvcNewtonsoftJson>3.1.0</MicrosoftAspNetCoreMvcNewtonsoftJson>
   </PropertyGroup>
 
   <PropertyGroup Label="Testing Dependencies">
-    <FluentAssertions>5.9.0</FluentAssertions>
+    <FluentAssertions>5.10.0</FluentAssertions>
     <xunit>2.4.1</xunit>
     <xunitrunnervisualstudio>2.4.1</xunitrunnervisualstudio>
-    <coverletcollector>1.1.0</coverletcollector>
+    <coverletcollector>1.2.0</coverletcollector>
     <Respawn>3.2.0</Respawn>
-    <MicrosoftAspNetCoreTestHost>3.0.0</MicrosoftAspNetCoreTestHost>
+    <MicrosoftAspNetCoreTestHost>3.1.0</MicrosoftAspNetCoreTestHost>
   </PropertyGroup>
 
   <PropertyGroup Label="CLI Tools Versions">
