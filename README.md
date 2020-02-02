@@ -8,7 +8,7 @@ The solution is built against the latest NET Core 3.0
 
 - Install the required .NET Core SDK using in Linux [install-sdk.sh](install-sdk.sh) or Windows [install-sdk.ps1](install-sdk.ps1).
 - Install docker
-- Run docker-compose -f .\build\docker-compose-infrastructure.yml
+- Run docker-compose -f .\build\docker-compose-infrastructure.yml up -d (Or you can use SQL Server Express LocalDB)
 - Run [build.ps1](build.ps1) in the root of the repo.
 
 ## How to code
